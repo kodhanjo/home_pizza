@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif;
-    background-color: #635f2f;
-    background-image: linear-gradient(315deg, #635f2f 0%, #eee, 70%);
+    background-color: #706e5c;
+    background-image: linear-gradient(315deg, #706e5c 0%, #eee 70%,);
     height: 100vh;
 }
 .badge-notify{
@@ -10,4 +10,16 @@ body{
     top: -20px;
     right: 40px;
     font-family: sans-serif;
+}
+#addNewProduct{
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.btn{
+    padding: 10px;
+    background: transparent;
 }
