@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    background-color: #635f2f;
+    background-image: linear-gradient(315deg, #635f2f 0%, #eee, 70%);
+    height: 100vh;
+}
+.badge-notify{
+    background-color: burlywood;
+    position: relative;
+    top: -20px;
+    right: 40px;
+    font-family: sans-serif;
+}
