@@ -24,9 +24,15 @@ $(function () {
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 10, quantity: 1, image: 'images/img_1.png'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 20, quantity: 2, image: 'images/img_2.png'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 30, quantity: 1, image: 'images/img_3.png'}
+        {id: 1, name: 'product 1', summary: 'summary 1', price: 1000, quantity: 1, image: 'images/dessert-pizza.jpg'},
+        {id: 2, name: 'product 2', summary: 'summary 2', price: 1250, quantity: 2, image: 'images/chickenmushrooms(2).jpg'},
+        {id: 3, name: 'product 3', summary: 'summary 3', price: 1050, quantity: 3, image: 'images/dominos-pizza(2).jpg'},
+        {id: 4, name: 'product 4', summary: 'summary 4', price: 700, quantity: 4, image: 'images/mergherita.jpeg'},
+        {id: 5, name: 'product 5', summary: 'summary 5', price: 1300, quantity: 5, image: 'images/wc1813154.jpg'},
+        {id: 6, name: 'product 6', summary: 'summary 6', price: 1250, quantity: 6, image: 'images/download.jpeg'},
+        {id: 7, name: 'product 7', summary: 'summary 7', price: 1150, quantity: 7, image: 'images/deep-dish-pizza.jpg'},
+        {id: 8, name: 'product 8', summary: 'summary 8', price: 750, quantity: 8, image: 'images/dominos-pizza(2).jpg'},
+        {id: 9, name: 'product 9', summary: 'summary 9', price: 900, quantity: 9, image: 'images/dominos-pizza.jpg'},
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
