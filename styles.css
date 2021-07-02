@@ -22,4 +22,17 @@ body{
 .btn{
     padding: 10px;
     background: transparent;
+    border: 2px solid white;
+}
+.btn-info{
+    background: #34495e;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.row{
+    color: white;
+}
+h1{
+    color: white;
 }
