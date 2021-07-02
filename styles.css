@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: #706e5c;
+    background-color: #b1ac86;
     background-image: linear-gradient(315deg, #706e5c 0%, #eee 70%,);
     height: 100vh;
 }
@@ -29,6 +29,9 @@ body{
     padding: 10px 20px;
     /* border-top-right-radius: 50px;
     border-bottom-right-radius: 50px; */
+}
+.col-md-3 text-centre{
+    padding: 5px;
 }
 .row{
     color: white;
