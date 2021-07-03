@@ -45,3 +45,10 @@ img{
 .fa-shopping-cart{
     float: right;
 }
+p{
+    font-weight: 900;
+    font-size: medium;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+}
