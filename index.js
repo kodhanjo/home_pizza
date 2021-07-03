@@ -32,7 +32,6 @@ $(function () {
         {id: 6, name: 'product 6', summary: 'summary 6', price: 1250, quantity: 1, image: 'images/download.jpeg'},
         {id: 7, name: 'product 7', summary: 'summary 7', price: 1150, quantity: 1, image: 'images/deep-dish-pizza.jpg'},
         {id: 8, name: 'product 8', summary: 'summary 8', price: 750, quantity: 1, image: 'images/dominos-pizza(2).jpg'},
-        {id: 9, name: 'product 9', summary: 'summary 9', price: 900, quantity: 1, image: 'images/dominos-pizza.jpg'},
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
