@@ -1,4 +1,4 @@
-# my potfolio
+# pizza home 
 #### this is pizza home web app it contains what i can do best in software developement, june 2021
 #### By Felix Osambo
 ## Description
