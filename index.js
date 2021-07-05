@@ -24,14 +24,14 @@ $(function () {
       showCheckoutModal: true,
       numberOfDecimals: 2,
       cartItems: [
-        {id: 1, name: 'product 1', summary: 'summary 1', price: 1000, quantity: 1, image: 'images/img_1.jpg'},
-        {id: 2, name: 'product 2', summary: 'summary 2', price: 1250, quantity: 2, image: 'images/img_2.jpg'},
-        {id: 3, name: 'product 3', summary: 'summary 3', price: 1050, quantity: 3, image: 'images/img_3.jpg'},
-        {id: 4, name: 'product 4', summary: 'summary 4', price: 700, quantity: 4, image: 'images/img_4.jpeg'},
-        {id: 5, name: 'product 5', summary: 'summary 5', price: 1300, quantity: 5, image: 'images/img_5.jpg'},
-        {id: 6, name: 'product 6', summary: 'summary 6', price: 1250, quantity: 6, image: 'images/img_6.jpeg'},
-        {id: 7, name: 'product 7', summary: 'summary 7', price: 1150, quantity: 7, image: 'images/img_7.jpg'},
-        {id: 8, name: 'product 8', summary: 'summary 8', price: 750, quantity: 8, image: 'images/img_8.jpg'},
+        {id: 1, name: 'Desert pizza', summary: 'summary 1', price: 1000, quantity: 1, image: 'images/img_1.jpg'},
+        {id: 2, name: 'Chickenmushrooms pizza', summary: 'summary 2', price: 1250, quantity: 1, image: 'images/img_2.jpg'},
+        {id: 3, name: 'Dominos-pizza', summary: 'summary 3', price: 1050, quantity: 1, image: 'images/img_3.jpg'},
+        {id: 4, name: 'Margherita-pizza', summary: 'summary 4', price: 700, quantity: 1, image: 'images/img_4.jpeg'},
+        {id: 5, name: 'Italian-pizza', summary: 'summary 5', price: 1300, quantity: 1, image: 'images/img_5.jpg'},
+        {id: 6, name: 'Veggie-pizza ', summary: 'summary 6', price: 1250, quantity: 1, image: 'images/img_6.jpeg'},
+        {id: 7, name: 'Dish-dip-pizza', summary: 'summary 7', price: 1150, quantity: 1, image: 'images/img_7.jpg'},
+        {id: 8, name: 'Pepperoni-pizza  ', summary: 'summary 8', price: 750, quantity: 1, image: 'images/img_8.jpg'},
       ],
       clickOnAddToCart: function($addTocart){
         goToCartIcon($addTocart);
@@ -51,10 +51,14 @@ $(function () {
         alert(checkoutString)
         console.log("checking out", products, totalPrice, totalQuantity);
       },
-      getDiscountPrice: function(products, totalPrice, totalQuantity) {
-        console.log("calculating discount", products, totalPrice, totalQuantity);
-        return totalPrice * 0.5;
-      }
+      // getDiscountPrice: function(products, totalPrice, totalQuantity) {
+      //   console.log("calculating discount", products, totalPrice, totalQuantity);
+      //   return totalPrice * 0.5;
+      // },
+      // getShippingPrice: function(products, totalPrice, totalQuantity) {
+      //   console.log("calculating shipping", products, totalPrice, totalQuantity);
+      //   return totalPrice * 0.05;
+      // }
     });
 
     $("#addNewProduct").click(function(event) {
